@@ -1,0 +1,23 @@
+{
+  "name": "matchingapp-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/matchingapp-handson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/matchingapp-handson/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/matchingapp-handson#readme",
+  "dependencies": {
+    "firebase": "^6.4.0",
+    "firebase-admin": "^8.3.0"
+  }
+}
