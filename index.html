@@ -2,9 +2,24 @@
   <head>
     <meta charset="utf-8" />
   </head>
+  <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-messaging.js"></script>
+
   <script>
-    alert("hoge");
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCo6WQKXpHUK-txXvqfCjkTEdS-wmi3cOY",
+      authDomain: "matchingapp-handson.firebaseapp.com",
+      databaseURL: "https://matchingapp-handson.firebaseio.com",
+      projectId: "matchingapp-handson",
+      storageBucket: "",
+      messagingSenderId: "521635647289",
+      appId: "1:521635647289:web:e32151adac508562"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
   </script>
+  <script src="main.js"></script>
   <body>
     matching app
   </body>
