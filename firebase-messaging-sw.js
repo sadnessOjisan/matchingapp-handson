@@ -2,7 +2,7 @@ importScripts("/__/firebase/6.2.4/firebase-app.js");
 importScripts("/__/firebase/6.2.4/firebase-messaging.js");
 
 var firebaseConfig = {
-  messagingSenderId: "667864117855"
+  messagingSenderId: "521635647289"
 };
 
 // Initialize Firebase
